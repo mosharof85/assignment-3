@@ -83,7 +83,7 @@ function hotelCost(nosOfDays) {
             hotelExpense = expenseOfFirstTenDays + expenseOfSecondTenDays + expenseOfRemainingDays;
         }
 
-        return hotelExpense
+        return hotelExpense;
     }
 }
 
