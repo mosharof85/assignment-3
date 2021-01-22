@@ -45,7 +45,7 @@ PROBLEM 03
 
 function hotelCost(nosOfDays) {
 
-    var hotelExprese = 0;
+    var hotelExpense = 0;
 
     if(nosOfDays <0){
         return "Invalid Value";
@@ -54,7 +54,7 @@ function hotelCost(nosOfDays) {
     {
         //Calculation of first phase
         if(nosOfDays <= 10){
-            hotelExprese = nosOfDays * 100;
+            hotelExpense = nosOfDays * 100;
         }
 
         //Calculation of second phase
@@ -80,10 +80,10 @@ function hotelCost(nosOfDays) {
             var expenseOfRemainingDays = nosOfRemainingDays * 50;
 
 
-            hotelExprese = expenseOfFirstTenDays + expenseOfSecondTenDays + expenseOfRemainingDays;
+            hotelExpense = expenseOfFirstTenDays + expenseOfSecondTenDays + expenseOfRemainingDays;
         }
 
-        return hotelExprese
+        return hotelExpense
     }
 }
 
