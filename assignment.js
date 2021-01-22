@@ -1,3 +1,6 @@
+//https://github.com/mosharof85/assignment-3
+
+
 /*
 PROBLEM 01
  */
@@ -95,7 +98,7 @@ PROBLEM 04
 function megaFriend(friends){
     var maxLength = 0;
 
-    for (var i=0; i<friends.length; i++){
+    for (var i=0; i < friends.length; i++){
         var currentNameLength = friends[i].length;
 
         if(currentNameLength > maxLength){
